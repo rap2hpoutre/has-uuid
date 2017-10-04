@@ -21,7 +21,7 @@ trait HasUuid
      *
      * @return void
      */
-    public static function bootUuidModel()
+    public static function bootHasUuid()
     {
         static::creating(function ($model) {
             // Don't let people provide their own UUIDs, we will generate a proper one.
