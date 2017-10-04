@@ -1,0 +1,23 @@
+{
+  "name": "rap2hpoutre/has-uuid",
+  "description": "Use both auto-increment and UUID",
+  "type": "library",
+  "require": {
+    "illuminate/support": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x",
+    "laravel/framework": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x",
+    "ramsey/uuid": "^3.7"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rap2h",
+      "email": "raphaelht@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rap2hpoutre\\HasUuid\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
