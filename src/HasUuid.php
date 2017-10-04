@@ -1,5 +1,5 @@
 <?php
-namespace Rap2hpoutre\Models;
+namespace Rap2hpoutre\HasUuid;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Ramsey\Uuid\Uuid;
