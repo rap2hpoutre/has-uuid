@@ -34,7 +34,7 @@ And when you save a model, it will *magically* add a UUID to it:
 ```php
 $user = new User;
 $user->name = 'raph';
-$user->save(); // <- Your user has now a UUID (and a ID if you
+$user->save(); // <- Your user has now a UUID (and a ID if you have not removed it)
 ``` 
 
 PS: don't forget to add the UUID in your migrations:
