@@ -53,7 +53,7 @@ trait HasUuid
             throw (new ModelNotFoundException)->setModel(get_class($this));
         }
         $search = $query->where('uuid', $uuid);
-        return $first ? $search->firstOrFail() : $search;
+        return $first ? $search->first() : $search;
     }
 
     /**
